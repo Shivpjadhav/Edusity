@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(141, 141, 141, 0.692), rgba(19, 15, 15, 0.9)),
+    url('../Assets/heroimg.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 0; /* ensure no unintended spacing */
+  padding-top: 100px; /* give space below navbar */
+}
+
+
+.hero .title {
+  max-width: 800px;
+}
+
+.hero .title h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: white;
+}
+
+.hero .title p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.hero .btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #eff1f3;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #dbdbdb;
+}
+@media (max-width:880px) {
+  
+.hero .title h1 {
+  font-size: 25px;
+  color: white;
+  /* font-weight: 100; */
+  /* margin-bottom: 20px; */
+  line-height: 1.2;
+}
+
+.hero .title p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+}

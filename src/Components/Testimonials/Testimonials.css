@@ -1,0 +1,109 @@
+.testimonials {
+    position: relative;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .testimonials > img:first-child,
+  .testimonials > img:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .testimonials > img:first-child {
+    left: 20px;
+  }
+  
+  .testimonials > img:nth-child(2) {
+    right: 20px;
+  }
+  
+  .slider {
+    margin-top: 50px;
+    /* overflow-x: auto; */
+    /* scroll-snap-type: x mandatory; */
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .slider ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+    list-style: none;
+    transition: transform 0.5s ease-in-out;
+    /* scroll-snap-align: center;
+    scroll-behavior: smooth; */
+  }
+  
+  .slider li {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  
+  .slide .user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .slide .user-info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+  }
+  
+  .slide h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .slide span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .slider p {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+  }
+@media (max-width:880px) {
+  .testimonials{
+    padding: 0 40px;
+  }
+  .next-btn, .back-btn{
+    width: 35px;
+  }
+  .slide .user-info img{
+    width: 50px;
+  }
+  .slider li{
+    width: 20%;
+  }
+}
+  

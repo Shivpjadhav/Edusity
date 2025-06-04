@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+    margin: 70px 0 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+  }
+  
+  .title p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #68635f; /* Accent color */
+    /* margin: 10px; */
+    letter-spacing: 2px;
+    /* text-align: center; */
+    text-transform: uppercase;
+  }
+  
+  .title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #111;
+  }
+  

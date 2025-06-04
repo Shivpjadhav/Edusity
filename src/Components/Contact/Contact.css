@@ -1,0 +1,101 @@
+/* Contact.css */
+
+.Contact {
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .contact-col {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .contact-col h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    border-left: 4px solid #007bff;
+    padding-left: 10px;
+  }
+  
+  .contact-col p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .contact-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-col ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-col ul li::before {
+    content: "📍";
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  /* Form Styling */
+  .contact-col form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-col form label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .contact-col form input,
+  .contact-col form textarea {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    resize: none;
+    transition: border-color 0.3s;
+  }
+  
+  .contact-col form input:focus,
+  .contact-col form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .btn.dark-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn.dark-btn:hover {
+    background-color: #0056b3;
+  }
+  
